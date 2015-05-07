@@ -3,3 +3,8 @@ general:
 test:
   override:
     - php -l ./
+deployment:
+  staging:
+    branch: master
+    commands:
+      - ./deploy_staging.sh
