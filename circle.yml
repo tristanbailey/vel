@@ -2,6 +2,7 @@ test:
   override:
     - php -l ./
     - pwd
+    - chmod a+x deploy_staging.sh
     - ls -lah
 deployment:
   staging:
