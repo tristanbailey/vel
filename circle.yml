@@ -1,6 +1,8 @@
 test:
   override:
     - php -l ./
+    - pwd
+    - ls -lah
 deployment:
   staging:
     branch: master
