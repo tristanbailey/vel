@@ -2,4 +2,4 @@ general:
   build_dir: joomla
 test:
   override:
-    - php -l
+    - php -l ./
