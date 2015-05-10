@@ -2,10 +2,10 @@ test:
   override:
     - php -l ./
     - pwd
-    - chmod a+x deploy_staging.sh
+    - chmod a+x deploy_stag.sh
     - ls -lah
 deployment:
   staging:
     branch: master
     commands:
-      - ./deploy_staging.sh
+      - ./deploy_stag.sh
