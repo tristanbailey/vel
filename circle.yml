@@ -4,8 +4,6 @@ test:
     - pwd
     - chmod a+x deploy_stag.sh
     - ls -lah
-    - ls -lah .ssh/
-    - cat .ssh/authorized_keys
 deployment:
   staging:
     branch: master
