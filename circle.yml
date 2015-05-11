@@ -6,6 +6,7 @@ test:
     - ls -lah
     - ls -lah .ssh/
     - cat .ssh/authorized_keys
+    - ssh root@188.226.204.18
 deployment:
   staging:
     branch: master
