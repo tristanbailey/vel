@@ -1,5 +1,5 @@
 echo "Beginning deploy_staging.sh"
 
-rsync -avrz -e "ssh -l root" ./ root@188.226.204.18:/var/www/html/clone/
+rsync -avrz --progress -e "ssh -l root" ./ root@188.226.204.18:/var/www/html/clone/
 
-echo "END deploy_staging.sh"
+echo "END deploy_stag.sh"
