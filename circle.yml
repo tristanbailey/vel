@@ -1,3 +1,8 @@
+machine:
+  timezone:
+    Etc/UTC
+  php:
+    version: 5.5.9
 test:
   override:
     - php -l ./
